@@ -8,14 +8,14 @@ print("---- lista de figuras ----
 	5 - Triangulo Equilatero
 	6 - Sair")
 
-print("Selecione uma figura")
+print("Selecione o numero de uma figura")
 leia (numero_figura)
 
 se(numero_figura == 1):
 
 	print("forneca a coordenada do ponto:")
 	leia(x1, y1)
-	ponto = UniversoGeometricoClasses.Ponto(x1, y1)
+	ponto = UniGeoClasses.Ponto(x1, y1)
 	print("forneca a coordenada de outro ponto:")
 	leia(x2, y2)
 	print(ponto.distancia_entre_pontos(x2, y2))
@@ -24,7 +24,7 @@ senão se(numero_figura == 2):
 	
 	print("forneca o raio do circulo: ")
 	leia(raio)
-	circulo = UniversoGeometricoClasses.Circulo(raio)
+	circulo = UniGeoClasses.Circulo(raio)
 	print(circulo.area())
 	print(circulo.circunferencia())
 
@@ -32,7 +32,7 @@ senão se(numero_figura == 3):
 	
 	print("forneca o lado do quadrado:")
 	leia(lado)
-	quadrado = UniversoGeometricoClasses.Quadrado(lado)
+	quadrado = UniGeoClasses.Quadrado(lado)
 	print(quadrado.area())	
 	print(quadrado.perimetro())
 	print(quadrado.diagonal())
@@ -41,7 +41,7 @@ senão se(numero_figura == 4):
 
 	print("forneca a base e a altura do retangulo: ")
 	leia(base, altura)
-	retangulo = UniversoGeometricoClasses.Retangulo(base, altura)
+	retangulo = UniGeoClasses.Retangulo(base, altura)
 	print(retangulo.area())
 	print(retangulo.perimetro())
 	print(retangulo.diagonal())
@@ -50,7 +50,7 @@ senão se(numero_figura == 5):
 
 	print("forneca o lado do trianguilo equilatero: ")
 	leia(lado)
-	triangulo_equilatero = UniversoGeometricoClasses.TrianguloEquilatero(lado)
+	triangulo_equilatero = UniGeoClasses.TrianguloEquilatero(lado)
 	print(triangulo_equilatero.area())
 	print(trianguilo_equilatero.perimetro())
 	print(trianguilo_equilatero.altura())	
