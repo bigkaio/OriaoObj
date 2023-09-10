@@ -1,4 +1,4 @@
-importar UniversoGeometricoClasses
+importar UniGeoClasses
 
 print("---- lista de figuras ----
 	1 - Ponto
