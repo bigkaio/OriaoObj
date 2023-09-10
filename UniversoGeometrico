@@ -1,17 +1,21 @@
 importar UniGeoClasses
 
+print("BEM VINDO AO UNIVERSO GEOMETRICO!!")
+
+print("Siga os passos para obter as figuras que deseja.")
+
 print("---- lista de figuras ----
-	1 - Ponto
-	2 - Circulo
-	3 - Quadrado
-	4 - Retangulo
-	5 - Triangulo Equilatero
-	6 - Sair")
+	01 - Ponto
+	02 - Circulo
+	03 - Quadrado
+	04 - Retangulo
+	05 - Triangulo Equilatero
+	06 - Sair")
 
 print("Selecione o numero de uma figura")
 leia (numero_figura)
 
-se(numero_figura == 1):
+se(numero_figura == 01):
 
 	print("forneca a coordenada do ponto:")
 	leia(x1, y1)
@@ -20,7 +24,7 @@ se(numero_figura == 1):
 	leia(x2, y2)
 	print(ponto.distancia_entre_pontos(x2, y2))
 
-senão se(numero_figura == 2):
+senão se(numero_figura == 02):
 	
 	print("forneca o raio do circulo: ")
 	leia(raio)
@@ -28,7 +32,7 @@ senão se(numero_figura == 2):
 	print(circulo.area())
 	print(circulo.circunferencia())
 
-senão se(numero_figura == 3):
+senão se(numero_figura == 03):
 	
 	print("forneca o lado do quadrado:")
 	leia(lado)
@@ -37,7 +41,7 @@ senão se(numero_figura == 3):
 	print(quadrado.perimetro())
 	print(quadrado.diagonal())
 
-senão se(numero_figura == 4):
+senão se(numero_figura == 04):
 
 	print("forneca a base e a altura do retangulo: ")
 	leia(base, altura)
@@ -46,7 +50,7 @@ senão se(numero_figura == 4):
 	print(retangulo.perimetro())
 	print(retangulo.diagonal())
 
-senão se(numero_figura == 5):
+senão se(numero_figura == 05):
 
 	print("forneca o lado do trianguilo equilatero: ")
 	leia(lado)
@@ -57,4 +61,4 @@ senão se(numero_figura == 5):
 
 
 senão
-	print('Programa finalizado')
+	print("FIM DO PROGRAMA")
