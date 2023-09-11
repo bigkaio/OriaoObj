@@ -13,9 +13,9 @@ print("---- lista de figuras ----
 	06 - Sair")
 
 print("Selecione o numero de uma figura")
-leia (numero_figura)
+leia (num_figura)
 
-se(numero_figura == 01):
+se(num_figura == 01):
 
 	print("forneca a coordenada do ponto:")
 	leia(x1, y1)
@@ -24,7 +24,7 @@ se(numero_figura == 01):
 	leia(x2, y2)
 	print(ponto.distancia_entre_pontos(x2, y2))
 
-senão se(numero_figura == 02):
+senão se(num_figura == 02):
 	
 	print("forneca o raio do circulo: ")
 	leia(raio)
@@ -32,7 +32,7 @@ senão se(numero_figura == 02):
 	print(circulo.area())
 	print(circulo.circunferencia())
 
-senão se(numero_figura == 03):
+senão se(num_figura == 03):
 	
 	print("forneca o lado do quadrado:")
 	leia(lado)
@@ -41,7 +41,7 @@ senão se(numero_figura == 03):
 	print(quadrado.perimetro())
 	print(quadrado.diagonal())
 
-senão se(numero_figura == 04):
+senão se(num_figura == 04):
 
 	print("forneca a base e a altura do retangulo: ")
 	leia(base, altura)
@@ -50,7 +50,7 @@ senão se(numero_figura == 04):
 	print(retangulo.perimetro())
 	print(retangulo.diagonal())
 
-senão se(numero_figura == 05):
+senão se(num_figura == 05):
 
 	print("forneca o lado do trianguilo equilatero: ")
 	leia(lado)
