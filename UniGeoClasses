@@ -1,51 +1,51 @@
-class Ponto():
-	funcao_construtora(x, y):
+classe Ponto():
+	func_construtora(x, y):
 		coordenada_x = x
 		coordenada_y = y
 	distancia_entre_pontos(x, y):
-		return sqrt((coordenada_x - x) * (coordenada_x - x) + (coordenada_y - y) * (coordenada_y - y))
+		retorna sqrt((coordenada_x - x) * (coordenada_x - x) + (coordenada_y - y) * (coordenada_y - y))
 
-class Circulo():
-	funcao_construtora(raio):
+classe Circulo():
+	func_construtora(raio):
 		raio_circulo = raio
 	
 	area():
-		return	3.14*(raio_circulo*raio_circulo)
+		retorna	3.14*(raio_circulo*raio_circulo)
 
 	circunferencia():
-		return 2*3.14*raio_circulo0
+		retorna 2*3.14*raio_circulo0
 
-class Quadrado():
-	funcao_construtora(lado):
+classe Quadrado():
+	func_construtora(lado):
 		lado_quadrado = lado
 	
 	area():
-		return lado_quadrado*lado_quadrado
+		retorna lado_quadrado*lado_quadrado
 	perimetro():
-		return lado_quadrado*4
+		retorna lado_quadrado*4
 	diagonal()
-		return lado_quadrado*1.41
+		retorna lado_quadrado*1.41
 
-class Retangulo():
-	funcao_construtora(base, altura)
+classe Retangulo():
+	func_construtora(base, altura)
 		base_retangulo = base
 		altura_retangulo = altura
 
 	area():
-		return base_retangulo*altura_retangulo
+		retorna base_retangulo*altura_retangulo
 	perimetro()
-		return (2*base_retangulo + 2*altura_retangulo)
+		retorna (2*base_retangulo + 2*altura_retangulo)
 	diagonal():
-		return sqrt((base_retangulo*base_retangulo) + (altura_retangulo*altura_retangulo))
+		retorna sqrt((base_retangulo*base_retangulo) + (altura_retangulo*altura_retangulo))
 
-class Triangulo_equilatero():
-	funcao_construtora(lado):
+classe Triangulo_equilatero():
+	func_construtora(lado):
 		lado_triangulo = lado
 	area():
-		return ((lado_triangulo*lado_triangulo)*1,7)/4
+		retorna ((lado_triangulo*lado_triangulo)*1,7)/4
 	altura():
-		return (lado_triangulo*1,7)/2
+		retorna (lado_triangulo*1,7)/2
 	perimetro():
-		return lado_triangulo*3
+		retorna lado_triangulo*3
 
 
